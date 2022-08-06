@@ -6,7 +6,7 @@ import ru.netology.web.data.DataHelper;
 
 import static com.codeborne.selenide.Selenide.page;
 
-public class LoginPageV3 {
+public class LoginPage {
   @FindBy(css = "[data-test-id=login] input")
   private SelenideElement loginField;
   @FindBy(css = "[data-test-id=password] input")
